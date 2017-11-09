@@ -1,0 +1,81 @@
+library ieee;
+use ieee.math_real.all;
+use ieee.math_complex.all;
+use ieee.std_logic_1164.all;
+use work.complex_pkg.all;
+use work.quantum_systems.all;
+
+entity testbench is
+end;
+
+architecture test of testbench is
+  signal address1, address2: std_logic_vector(0 to qubit_memory_address_length-1);
+  signal qopcode: qop;
+  signal qmemory: qubit_vector (0 to 2**qubit_memory_length-1) := (OTHERS => NULL_COMPLEX);
+  signal clock, instruction_clock:std_logic;
+  signal reset: std_logic := '1';
+  signal exec: std_logic := '0';
+  signal counter: integer := 0;
+  signal qinstruction: qinst;
+  
+  type qinst_vector  is array (natural range<>) of qinst;
+  signal qinst_memory: qinst_vector(0 to 10) := 
+    (
+      (qgen, "00", "00"), -- initialize q
+      (H1, "00", "00"),  -- apply H gate on q1 (1-based)
+      (Rk2,"00", "01"),  -- apply R2 gate: q1 target & q2 control (1-based)
+      (Rk3,"00", "10"),  -- apply R3 gate: q1 target & q3 control (1-based)
+      (Rk4,"00", "11"),  -- apply R4 gate: q1 target & q4 control (1-based)
+      (H1, "01", "00"),  -- apply H gate on q2 (1-based)
+      (Rk2,"01", "10"),  -- apply R2 gate: q2 target & q3 control (1-based)
+      (Rk3,"01", "11"),  -- apply R3 gate: q2 target & q4 control (1-based)
+      (H1, "10", "00"),  -- apply H gate on q3 (1-based)
+      (Rk2,"10", "11"),  -- apply R2 gate: q3 target & q4 control (1-based)
+      (H1, "11", "00")   -- apply H gate on q4 (1-based)         
+    );
+  
+begin
+  
+  qalu1:entity work.qalu port map(qinstruction, clock, reset, exec, qmemory);
+  
+  process(clock,reset) is
+    variable pc: integer := 0;
+  begin
+    if(rising_edge(clock)) then
+      if(reset='1') then      
+        address1 <= "00";
+        address2 <= "00";
+        qmemory <= (OTHERS => NULL_COMPLEX);
+      else
+        counter <= counter + 1;
+        if pc < qinst_memory'length then
+          if(counter mod 6 = 0) then
+            exec <= '1';
+            qinstruction <= qinst_memory(pc);
+            pc := pc + 1;
+          else
+            exec <= '0';
+          end if;
+        else
+          exec <= '0';
+        end if;
+      end if;
+    end if;
+  end process;
+  
+  process
+  begin
+      clock <= '0';
+       wait for 30 ns;
+       clock <= '1';
+       wait for 30 ns;
+   end process;
+   
+   process
+   begin
+     reset <= '1';
+     wait for 100 ns;
+     reset <= '0';
+     wait;
+   end process;
+end;

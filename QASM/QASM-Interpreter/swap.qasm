@@ -1,0 +1,4 @@
+q 1,1
+CNOT 0,1
+CNOT 1,0
+CNOT 0,1

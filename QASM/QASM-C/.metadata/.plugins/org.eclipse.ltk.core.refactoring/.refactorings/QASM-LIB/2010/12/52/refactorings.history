@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;QASM-LIB/src/misc.cpp&apos; to &apos;misc.c&apos;" description="Rename resource &apos;misc.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/misc.cpp" name="misc.c" stamp="1293044060758" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;QASM-LIB/src/misc.c&apos; to &apos;misc.cpp&apos;" description="Rename resource &apos;misc.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/misc.c" name="misc.cpp" stamp="1293044118426" updateReferences="true"/>
+</session>

@@ -1,0 +1,72 @@
+#include "qubit_vector.h"
+#include "qubit.h"
+#include "qgate.h"
+#include "qcomputer.h"
+
+int main ()
+{
+	qcomputer qcomp(4);
+
+	qcomp.exec(qcomputer::X, 3);
+	qcomp.exec(qcomputer::CNOT, 3, 0);
+
+	// test1.qasm - EPR Creation
+/*	qcomp.exec(qcomputer::H, 0);
+	qcomp.exec(qcomputer::CNOT, 0, 1);
+*/
+
+	// test2.qasm - Simple Teleportation Circuit
+/*	qcomp.exec(qcomputer::H, 1);
+	qcomp.exec(qcomputer::CNOT, 1, 2);
+	qcomp.exec(qcomputer::CNOT, 0, 1);
+	qcomp.exec(qcomputer::H, 0);
+
+	qcomp.exec(qcomputer::MEASURE, 1);
+	qcomp.exec(qcomputer::MEASURE, 0);
+
+	if(qcomp.getMeasuredQubit(1) == 1)
+		qcomp.exec(qcomputer::X, 2);
+
+	if(qcomp.getMeasuredQubit(0) == 1)
+		qcomp.exec(qcomputer::Z, 2);
+
+	cout << qcomp.getMeasuredQubit(0) << endl;
+	cout << qcomp.getMeasuredQubit(1) << endl;
+*/
+
+	// test3.qasm - Swap Circuit
+/*	qcomp.exec(qcomputer::CNOT, 1, 0);
+	qcomp.exec(qcomputer::CNOT, 0, 1);
+	qcomp.exec(qcomputer::CNOT, 1, 0);
+*/
+
+	// test4.qasm - Quantum Fourier Transform on 3 qubits
+/*	qcomp.exec(qcomputer::H, 0);
+	qcomp.exec(qcomputer::CS, 1, 0);
+	qcomp.exec(qcomputer::CT, 2, 0);
+	qcomp.exec(qcomputer::H, 1);
+	qcomp.exec(qcomputer::H, 2);
+	qcomp.exec(qcomputer::SWAP, 0, 2);
+*/
+
+	// Two-qubit gate implementation of Toffoli gate
+
+
+	// test8.qasm - Stage in simplification of quantum teleportation circuit
+/*	qcomp.exec(qcomputer::H, 1);
+	qcomp.exec(qcomputer::CNOT, 0, 1);
+	qcomp.exec(qcomputer::CNOT, 1, 2);
+	qcomp.exec(qcomputer::CNOT, 0, 1);
+	qcomp.exec(qcomputer::CNOT, 1, 2);
+	qcomp.exec(qcomputer::H, 0);
+	qcomp.exec(qcomputer::CZ, 2, 0);
+	qcomp.exec(qcomputer::H, 0);
+	qcomp.exec(qcomputer::H, 0);
+*/
+
+	cout <<  qcomp.memory() << endl;
+	cout << boolalpha << qcomp.memory().isValid() << endl;
+
+	return 0;
+} 
+

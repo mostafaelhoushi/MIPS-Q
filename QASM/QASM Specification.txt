@@ -1,0 +1,69 @@
+QASM Specification
+------------------
+
+QASM instructions are as follows. Lines begining with '#' are comments. All other lines should be of the form op args where op-args pairs are:
+
+qubit 	name,initval
+cbit 	name,initval
+measure	qubit
+H 		qubit
+X 		qubit
+Y 		qubit
+Z 		qubit
+S 		qubit
+T 		qubit
+nop 	qubit
+zero 	qubit
+discard	qubit
+slash 	qubit
+dmeter	qubit
+cnot 	ctrl,target
+c-z 	ctrl,target
+c-x 	ctrl,target
+toffoli	ctrl1,ctrl2,target
+ZZ 		b1,b2
+SS		b1,b2
+swap	b1,b2
+Utwo	b1,b2
+space	qubit
+def		opname,nctrl,texsym
+defbox	opname,nbits,nctrl,texsym
+
+
+Where:
+def 	- define a custom controlled single-qubit operation, with
+			opname = name of gate operation
+			nctrl = number of control qubits
+			texsym = latex symbol for the target qubit operation
+defbox 	- define a custom muti-qubit-controlled multi-qubit operation, with
+			opname = name of gate operation
+			nbits = number of qubits it acts upon
+			nctrl = number of control qubits
+			texsym = latex symbol for the target qubit operation
+qubit 	- define a qubit with a certain name (all qubits must be defined)
+			name = name of the qubit, eg q0 or j2 etc
+			initval = initial value (optional), eg 0
+cbit 	- define a cbit with a certain name (all cbits must be defined)
+			name = name of the cbit, eg c0
+			initval = initial value (optional), eg 0
+H 		- single qubit operator ("hadamard")
+X 		- single qubit operator
+Y 		- single qubit operator
+Z 		- single qubit operator
+S 		- single qubit operator
+T 		- single qubit operator
+nop 	- single qubit operator, just a wire
+space 	- single qubit operator, just an empty space
+dmeter 	- measure qubit, showing "D" style meter instead of rectangular box
+zero 	- replaces qubit with |0> state
+discard	- discard qubit (put "|" vertical bar on qubit wire)
+slash 	- put slash on qubit wire
+measure - measurement of qubit, gives classical bit (double-wire) output
+cnot 	- two-qubit CNOT
+c-z 	- two-qubit controlled-Z gate
+c-x 	- two-qubit controlled-X gate
+swap 	- two-qubit swap operation
+Utwo 	- two-qubit operation U
+ZZ 		- two-qubit controlled-Z gate, symmetric notation; two filled circles
+SS 		- two-qubit gate, symmetric; open squares
+toffoli	- three-qubit Toffoli gate

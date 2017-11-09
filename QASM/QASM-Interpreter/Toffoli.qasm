@@ -1,0 +1,17 @@
+q 0,0
+X 1
+X 0
+CRk 1,2,1
+H 2
+Rk -3,2
+CNOT 2,0
+Rk 3,2
+CNOT 2,1
+Rk -3,2
+CNOT 2,0
+Rk 3,2
+H 2
+CRk 2,1,0
+MEASURE 0
+MEASURE 1
+MEASURE 2

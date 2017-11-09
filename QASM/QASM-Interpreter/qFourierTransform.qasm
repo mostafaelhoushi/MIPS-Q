@@ -1,0 +1,15 @@
+q 0, 0
+H 0 
+CRk 2,0,1 
+CRk 3,0,2 
+CRk 4,0,3 
+H 1 
+CRk 2,1,2 
+CRk 3,1,3 
+H 2 
+CRk 2,2,3 
+H 3 
+MEASURE 0
+MEASURE 1
+MEASURE 2
+MEASURE 3

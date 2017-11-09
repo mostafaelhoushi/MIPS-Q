@@ -1,0 +1,8 @@
+report "temp_effective_gate_matrix1";
+          for i in 0 to temp_effective_gate_matrix1'length(1) - 1 loop
+            for j in 0 to temp_effective_gate_matrix1'length(2) - 1 loop
+            write( l, real'image(temp_effective_gate_matrix1(i,j ).RE) );
+            writeline( output, l );
+          end loop;
+          report "";
+        end loop;

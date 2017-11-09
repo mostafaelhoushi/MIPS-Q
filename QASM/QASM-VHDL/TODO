@@ -1,0 +1,14 @@
+﻿-generte matrix for 2 input qgate [DONE]
+-try different matrices for larger qmemory size [DONE]
+-solve problem of needing 2 cycles of enable_input[DONE]
+-try well known algorithms and compare them with other papers 
+-read single instruction from a register [DONE]
+-read list of instructions from ROM or file [DONE]
+-pass parameters to some quantum gates [DONE]
+-QASM macro to convert arbitrary gate to elementary gates***
+-Perl script to generate program [DONE]
+-consider removing enable_input signal
+-measure qubit within VHDL [DONE]
+-QASM END instruction
+-q_gen to set any combination of qubits
+-integrate with MIPS

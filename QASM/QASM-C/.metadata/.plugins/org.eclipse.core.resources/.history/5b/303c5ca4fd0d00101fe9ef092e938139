@@ -1,0 +1,63 @@
+
+CSRCS= 		src/misc.cpp \
+			src/qcomputer.cpp \
+			src/qgate.cpp \
+			src/qubit_vector.cpp \
+				
+OBJS=			$(CSRCS:src/%.cpp=obj/%$(DEBUG_EXT).o) \
+				$(CSRCS:src/%.c=obj/%$(DEBUG_EXT).o)
+
+DEPS=			$(CSRCS:src/%.cpp=dep/%$(DEBUG_EXT).d)
+		
+INCL=			-Iinc
+
+TARGET=			lib/libqasm$(DEBUG_EXT).so
+
+EXE=			exe/qcomp
+
+CXX=			g++
+
+CC=				gcc
+
+DIRS=			dep	\
+				obj 	\
+				lib
+
+#if ($(MODE),debug)
+#CXXFLAGS+=		-g
+#DEBUG_EXT=		_g
+#endif
+
+-include $(DEPS)
+
+#debug:
+#	make "MODE=debug"
+		
+all: 		$(TARGET)
+	
+$(TARGET): 	$(OBJS)
+	mkdir -p $(dir $@)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(INCL) -shared -o $@ 
+	
+obj/%.o:	src/%.cpp
+	mkdir -p $(dir $@)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(INCL) -c -o $@ $<
+	
+obj/%.o:	src/%.c
+	mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) $(CXXFLAGS) $(INCL) -c -o $@ $<
+	
+dep/%.d:	src/%.cpp	src/%.c
+	mkdir -p $(dir $@)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(INCL) -MM -MT $(@:dep/%.d=obj/%.o) $< \
+		| sed 's,\($*\)\.o[ :]*,\1.o $@ : ,g' > $@
+	
+clean:
+	rm -f $(TARGET) $(OBJS) $(DEPS)
+	for d in $(DIRS)				\ 
+	do								\
+		if[-d $$d]					\
+		then						\
+			rmdir $$d				\
+		fi							\
+	done							\

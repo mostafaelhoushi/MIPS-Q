@@ -1,0 +1,23 @@
+!SESSION 2010-12-22 20:46:25.017 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-12-22 20:51:32.905
+!MESSAGE Indexed 'QASM-LIB' (0 sources, 76 headers) in 1.62 sec: 2,086 declarations; 2,330 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-12-22 21:22:43.521
+!MESSAGE Indexed 'QASM-C' (0 sources, 76 headers) in 0.60 sec: 2,086 declarations; 2,330 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2010-12-22 21:55:48.990 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-12-22 21:55:56.795
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
