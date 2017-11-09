@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Mostafa/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/test.xst" -ofn "C:/Users/Mostafa/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/test.syr" 

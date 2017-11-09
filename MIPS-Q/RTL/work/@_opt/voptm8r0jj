@@ -1,0 +1,406 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/media/Mostafa/ASU Engineering/Study/Masters/Thesis/MIPS-Q/RTL
+T_opt
+Z1 V@FD1WohW3aoaP3fCNKEQ61
+Z2 04 4 8 work test behavior 1
+Z3 =1-6cf04916777a-4dead8a4-aed96-79b4
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;10.0;49
+Z7 d/media/Mostafa/ASU Engineering/Study/Masters/Thesis/MIPS-Q/RTL
+Econtroller
+Z8 w1307194078
+Z9 DPx4 work 11 riscpackage 0 22 G0i:c<W`z1HOb>>3CT05=3
+Z10 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z11 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z12 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R7
+Z13 8controller.vhd
+Z14 Fcontroller.vhd
+l0
+L26
+Z15 VUZ5O?mQ<H6FF;j;oK>Vb43
+Z16 OE;C;10.0;49
+33
+Z17 !s108 1307236513.835044
+Z18 !s90 -reportprogress|300|-2008|-explicit|-work|work|controller.vhd|
+Z19 !s107 controller.vhd|
+Z20 o-2008 -explicit -work work
+Z21 tExplicit 1
+Z22 !s100 D?O1NVLc:6zkdTX?4T_>R1
+Artl
+R9
+R10
+R11
+R12
+Z23 DEx4 work 10 controller 0 22 UZ5O?mQ<H6FF;j;oK>Vb43
+l47
+L37
+Z24 V6kMT;9m7YZ[z4d=ZnQ9HF0
+R16
+33
+Z25 !s108 1307229796.962449
+R18
+R19
+R20
+R21
+Z26 !s100 KLMYC?MT;JMJFQ0Z7Rf7A1
+Eexecute
+Z27 w1307231248
+R9
+R10
+R11
+R12
+R7
+Z28 8execute.vhd
+Z29 Fexecute.vhd
+l0
+L24
+Z30 VODH`Rj4b<T9JE=kFzhmg=3
+R16
+33
+Z31 !s108 1307236514.286930
+Z32 !s90 -reportprogress|300|-2008|-explicit|-work|work|execute.vhd|
+Z33 !s107 execute.vhd|
+R20
+R21
+Z34 !s100 b`?Uz=7D_h3N=>[LYN9^N0
+Artl
+R9
+R10
+R11
+R12
+Z35 DEx4 work 7 execute 0 22 ODH`Rj4b<T9JE=kFzhmg=3
+l69
+L61
+Z36 V^N6NR1EPPWESi>YM8F04Q2
+R16
+33
+Z37 !s108 1307231278.072568
+R32
+R33
+R20
+R21
+Z38 !s100 KJV`n<_Cz1^e8C?e=jSZ22
+Eidecode
+Z39 w1307236511
+R9
+R10
+R11
+R12
+R7
+Z40 8idecode.vhd
+Z41 Fidecode.vhd
+l0
+L27
+Z42 VB8BZ;@d=gb8S<0>nAIZn72
+R16
+33
+Z43 !s108 1307236514.161899
+Z44 !s90 -reportprogress|300|-2008|-explicit|-work|work|idecode.vhd|
+Z45 !s107 idecode.vhd|
+R20
+R21
+Z46 !s100 k3SV4DV1:bQZ:m`>JH7gd0
+Artl
+R9
+R10
+R11
+R12
+Z47 DEx4 work 7 idecode 0 22 B8BZ;@d=gb8S<0>nAIZn72
+l146
+L75
+Z48 V:8bBLKkcZon?Mzd9VHf9^0
+R16
+33
+R43
+R44
+R45
+R20
+R21
+Z49 !s100 11a@?NVX[TEl85:ZhVDVl3
+Eifetch
+Z50 w1306182038
+R9
+R10
+R11
+R12
+R7
+Z51 8ifetch.vhd
+Z52 Fifetch.vhd
+l0
+L28
+Z53 VdRzWj=1_B=CchQ;E:g7eh0
+R16
+33
+Z54 !s108 1307236514.049446
+Z55 !s90 -reportprogress|300|-2008|-explicit|-work|work|ifetch.vhd|
+Z56 !s107 ifetch.vhd|
+R20
+R21
+Z57 !s100 ]eOhK7b?dkSl`3WB1W3ll0
+Astruct
+R9
+R10
+R11
+R12
+Z58 DEx4 work 6 ifetch 0 22 dRzWj=1_B=CchQ;E:g7eh0
+l57
+L48
+Z59 VNBZ>l36W_X>odfFFCj>R41
+R16
+33
+Z60 !s108 1307229797.241588
+R55
+R56
+R20
+R21
+Z61 !s100 _Xh^BbdH>nDSOc@Vo4iTW0
+Eintbussm
+R50
+R11
+R12
+R7
+Z62 8intBusSM.vhd
+Z63 FintBusSM.vhd
+l0
+L21
+Z64 Va>c]im2?9>`hZMX0PfdRS3
+R16
+33
+Z65 !s108 1307236513.948740
+Z66 !s90 -reportprogress|300|-2008|-explicit|-work|work|intBusSM.vhd|
+Z67 !s107 intBusSM.vhd|
+R20
+R21
+Z68 !s100 TK`>gZdiJ59mAN``9][D32
+Artl
+R11
+R12
+Z69 DEx4 work 8 intbussm 0 22 a>c]im2?9>`hZMX0PfdRS3
+l37
+L31
+Z70 Vn5mQIWZLEZ]W8Rc1AGVMQ3
+R16
+33
+Z71 !s108 1307229797.105929
+R66
+R67
+R20
+R21
+Z72 !s100 hKgzYloWRS;SRJOMCa`L]3
+Ememory_part
+Z73 w1306185507
+Z74 DPx4 work 14 mempartpackage 0 22 GS>i^^I<JMHH5M@fC<9N72
+R9
+R10
+Z75 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R11
+R12
+Z76 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R7
+Z77 8mempart.vhd
+Z78 Fmempart.vhd
+l0
+L68
+Z79 VbZRi7n5n9;]BdhC;FO]`d2
+R16
+33
+Z80 !s108 1307236513.704357
+Z81 !s90 -reportprogress|300|-2008|-explicit|-work|work|mempart.vhd|
+Z82 !s107 mempart.vhd|
+R20
+R21
+Z83 !s100 1fG42Q00Q6D@P7@eBkWV@1
+Astatic
+R74
+R9
+R10
+R75
+R11
+R12
+R76
+Z84 DEx4 work 11 memory_part 0 22 bZRi7n5n9;]BdhC;FO]`d2
+l114
+L112
+Z85 VLmiTH7JYFolFoA:KHBGN<0
+R16
+33
+Z86 !s108 1307229796.804207
+R81
+R82
+R20
+R21
+Z87 !s100 CLz1iH;X2<;;fB82PY>QQ1
+Pmempartpackage
+R9
+R10
+R11
+R12
+Z88 w1307029567
+R7
+Z89 8mempartPackage.vhd
+Z90 FmempartPackage.vhd
+l0
+L26
+Z91 VGS>i^^I<JMHH5M@fC<9N72
+R16
+33
+b1
+Z92 !s108 1307229796.649028
+Z93 !s90 -reportprogress|300|-2008|-explicit|-work|work|mempartPackage.vhd|
+Z94 !s107 mempartPackage.vhd|
+R20
+R21
+Z95 !s100 =4<M[CDgzc[cUY`j7PjHC0
+Bbody
+Z96 DBx4 work 14 mempartpackage 0 22 GS>i^^I<JMHH5M@fC<9N72
+R9
+R10
+R11
+R12
+l0
+L48
+Z97 VF`nbVDb2o`;6eHDndO3d@0
+R16
+33
+R92
+R93
+R94
+R20
+R21
+nbody
+Z98 !s100 ^<z`7VcRjQSMREPjD=oQ@0
+Ememstage
+Z99 w1307057095
+R9
+R10
+R11
+R12
+R7
+Z100 8memstage.vhd
+Z101 Fmemstage.vhd
+l0
+L24
+Z102 Vk[`V=96SWWYUe`zN516m12
+R16
+33
+Z103 !s108 1307236514.415869
+Z104 !s90 -reportprogress|300|-2008|-explicit|-work|work|memstage.vhd|
+Z105 !s107 memstage.vhd|
+R20
+R21
+Z106 !s100 U2cNT9;Bn0n>[I6Pob]ET1
+Artl
+R9
+R10
+R11
+R12
+Z107 DEx4 work 8 memstage 0 22 k[`V=96SWWYUe`zN516m12
+l58
+L53
+Z108 V9WeC;4md^1MZ]jWSSlDf71
+R16
+33
+Z109 !s108 1307229797.650990
+R104
+R105
+R20
+R21
+Z110 !s100 54M_oE:4R;Af4]jci?`PX1
+Emyrisc
+Z111 w1307231273
+R9
+R10
+R11
+R12
+R7
+Z112 8myrisc.vhd
+Z113 Fmyrisc.vhd
+l0
+L27
+Z114 VENB?HSaoQjEVO]ka7VhTa3
+R16
+33
+Z115 !s108 1307236514.537577
+Z116 !s90 -reportprogress|300|-2008|-explicit|-work|work|myrisc.vhd|
+Z117 !s107 myrisc.vhd|
+R20
+R21
+Z118 !s100 R1n40^0690LP:CVFBh`^A0
+Abehavior
+R9
+R10
+R11
+R12
+Z119 DEx4 work 6 myrisc 0 22 ENB?HSaoQjEVO]ka7VhTa3
+l263
+L38
+Z120 Voj1e4T14;X[Q0ZB696:aQ1
+R16
+33
+R115
+R116
+R117
+R20
+R21
+Z121 !s100 ZKbFKMbVk5JWR[?R@86^d2
+Priscpackage
+R10
+R11
+R12
+R50
+R7
+Z122 8riscpackage.vhd
+Z123 Friscpackage.vhd
+l0
+L21
+Z124 VG0i:c<W`z1HOb>>3CT05=3
+R16
+33
+R20
+R21
+Z125 !s100 VMc@M1Yh^J=bA@?=:dUzi2
+Z126 !s108 1307229796.523745
+Z127 !s90 -reportprogress|300|-2008|-explicit|-work|work|riscpackage.vhd|
+Z128 !s107 riscpackage.vhd|
+Etest
+R50
+R9
+R10
+R11
+R12
+R7
+Z129 8test.vhd
+Z130 Ftest.vhd
+l0
+L24
+Z131 VPejO=b[iM?mC>0`z6]DBD2
+R16
+33
+Z132 !s108 1307236514.664967
+Z133 !s90 -reportprogress|300|-2008|-explicit|-work|work|test.vhd|
+Z134 !s107 test.vhd|
+R20
+R21
+Z135 !s100 ;`KJlKMCeA[liZnoQFUAC3
+Abehavior
+R9
+R10
+R11
+R12
+Z136 DEx4 work 4 test 0 22 PejO=b[iM?mC>0`z6]DBD2
+l62
+L27
+Z137 V`zXVmL=GkBHX9WZ?ZNSXT3
+Z138 !s100 dlP5GIK<HSOk8VSBb<7k32
+R16
+33
+R132
+R133
+R134
+R20
+R21

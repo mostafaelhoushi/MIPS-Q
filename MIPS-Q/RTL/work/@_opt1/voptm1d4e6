@@ -1,0 +1,388 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/media/Mostafa/ASU Engineering/Study/Masters/Thesis/MIPS-Q/RTL
+T_opt
+Z1 V@FD1WohW3aoaP3fCNKEQ61
+Z2 04 4 8 work test behavior 1
+Z3 =1-6cf04916777a-4dead8a4-aed96-79b4
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;10.0;49
+T_opt1
+Z7 Vm[0X<4o[9UCRjHHTE@KVU1
+R2
+Z8 =1-0013027dd17c-4e8e0337-1aa-1710
+R4
+Z9 n@_opt1
+Z10 OE;O;6.5;42
+Econtroller
+Z11 w1317928166
+Z12 DPx4 work 11 riscpackage 0 22 8<A^J24e1fU;n]HR`=80>3
+Z13 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z15 dD:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL
+Z16 8controller.vhd
+Z17 Fcontroller.vhd
+l0
+L26
+Z18 Vm0i<cV3UL7^;cLF[`PWV?0
+Z19 OE;C;6.5;42
+33
+Z20 o-2008 -explicit -work work
+Z21 tExplicit 1
+Z22 !s100 6cS6HI^KRT2F3aGXf^5dC1
+Artl
+R12
+R13
+R14
+Z23 DEx4 work 10 controller 0 22 m0i<cV3UL7^;cLF[`PWV?0
+l47
+L37
+Z24 VCShH>;C@e[1gUZ5QWBiK60
+R19
+33
+Z25 Mx3 4 ieee 14 std_logic_1164
+Z26 Mx2 4 ieee 11 numeric_std
+Z27 Mx1 4 work 11 riscpackage
+R20
+R21
+Z28 !s100 E@jFI4AJmHHOgJ3H_YGIo1
+Eexecute
+Z29 w1307227650
+R12
+R13
+R14
+R15
+Z30 8execute.vhd
+Z31 Fexecute.vhd
+l0
+L24
+Z32 VPzBSn6F^OIDRochnl26[l3
+R19
+33
+R20
+R21
+Z33 !s100 6Wmfl4VfoLV;AQ^JGMO]M1
+Artl
+R12
+R13
+R14
+Z34 DEx4 work 7 execute 0 22 PzBSn6F^OIDRochnl26[l3
+l69
+L61
+Z35 V>@RHKzL4gW3H>]U@CJiIH1
+R19
+33
+R25
+R26
+R27
+R20
+R21
+Z36 !s100 =biW7QY6?P:]Na7hinF`:1
+Eidecode
+Z37 w1307232912
+R12
+R13
+R14
+R15
+Z38 8idecode.vhd
+Z39 Fidecode.vhd
+l0
+L27
+Z40 Vo50fVX9KcCJb0e?n4;I1C3
+R19
+33
+R20
+R21
+Z41 !s100 =DaA27LIk0Z^A4nJ9Vdcf1
+Artl
+Z42 DPx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 11 riscpackage 0 22 8<A^J24e1fU;n]HR`=80>3
+Z43 DPx21 C:\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z44 DPx21 C:\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z45 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 7 idecode 0 22 o50fVX9KcCJb0e?n4;I1C3
+33
+Z46 Mx3 21 C:\modeltech_6.5\ieee 14 std_logic_1164
+Z47 Mx2 21 C:\modeltech_6.5\ieee 11 numeric_std
+Z48 Mx1 60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 11 riscpackage
+l146
+L75
+Z49 VICF>hE_?ioBb`GAbW4NF10
+R19
+R20
+R21
+Z50 !s100 `0GGbOozF:[A<FWiF@bJI1
+Eifetch
+Z51 w1306178440
+R12
+R13
+R14
+R15
+Z52 8ifetch.vhd
+Z53 Fifetch.vhd
+l0
+L28
+Z54 V^8aSIO8d[<4SbW8THHhHY1
+R19
+33
+R20
+R21
+Z55 !s100 cL8PU_049^3D4C2?f97ZM0
+Astruct
+R12
+R13
+R14
+Z56 DEx4 work 6 ifetch 0 22 ^8aSIO8d[<4SbW8THHhHY1
+l57
+L48
+Z57 V0m9gkm_T_ZM[:OD?ViC3z2
+R19
+33
+R25
+R26
+R27
+R20
+R21
+Z58 !s100 Rhi?KJYW>g348T[=nNFB`3
+Eintbussm
+R51
+R14
+R15
+Z59 8intBusSM.vhd
+Z60 FintBusSM.vhd
+l0
+L21
+Z61 Vkbn2VBMRW4Bi8Q^6T:ZOC3
+R19
+33
+R20
+R21
+Z62 !s100 >3::8LU5EK38CG>3QOiVY3
+Artl
+R14
+Z63 DEx4 work 8 intbussm 0 22 kbn2VBMRW4Bi8Q^6T:ZOC3
+l37
+L31
+Z64 V8bRD5inWkoF`BL@17[1jZ3
+R19
+33
+Z65 Mx1 4 ieee 14 std_logic_1164
+R20
+R21
+Z66 !s100 34XJ`6n5WJH?G=IT>N4Ee3
+Ememory_part
+Z67 w1306181908
+Z68 DPx4 work 14 mempartpackage 0 22 KX1Xg<^8B25jf;iJbA?T91
+R12
+Z69 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R13
+Z70 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R14
+Z71 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R15
+Z72 8mempart.vhd
+Z73 Fmempart.vhd
+l0
+L68
+Z74 V]Bc22X`8HZfJY9L[F9W_;3
+R19
+33
+R20
+R21
+Z75 !s100 nW46Y80O8CIg6aJ?eD1]U1
+Astatic
+R68
+R12
+R69
+R13
+R70
+R14
+R71
+Z76 DEx4 work 11 memory_part 0 22 ]Bc22X`8HZfJY9L[F9W_;3
+l114
+L112
+Z77 VeFgOO@m5HJF;?zPhg<U]83
+R19
+33
+Z78 Mx7 4 ieee 18 std_logic_unsigned
+Z79 Mx6 4 ieee 14 std_logic_1164
+Z80 Mx5 4 ieee 15 std_logic_arith
+Z81 Mx4 4 ieee 11 numeric_std
+Z82 Mx3 3 std 6 textio
+Z83 Mx2 4 work 11 riscpackage
+Z84 Mx1 4 work 14 mempartpackage
+R20
+R21
+Z85 !s100 Ez8ao8NgJZ>BXUSRzhbkW2
+Pmempartpackage
+R12
+R69
+R13
+R14
+Z86 w1317436386
+R15
+Z87 8mempartPackage.vhd
+Z88 FmempartPackage.vhd
+l0
+L26
+Z89 VKX1Xg<^8B25jf;iJbA?T91
+R19
+33
+b1
+Z90 Mx4 4 ieee 14 std_logic_1164
+Z91 Mx3 4 ieee 11 numeric_std
+Z92 Mx2 3 std 6 textio
+R27
+R20
+R21
+Z93 !s100 cm>hTHGR@a9P^VO0jMn9^3
+Bbody
+Z94 DBx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 14 mempartpackage 0 22 KX1Xg<^8B25jf;iJbA?T91
+R42
+Z95 DPx20 C:\modeltech_6.5\std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R43
+R44
+33
+Z96 Mx4 21 C:\modeltech_6.5\ieee 14 std_logic_1164
+Z97 Mx3 21 C:\modeltech_6.5\ieee 11 numeric_std
+Z98 Mx2 20 C:\modeltech_6.5\std 6 textio
+R48
+l0
+L50
+Z99 VZ?k=0^42_>>V5G6F0^Za13
+R19
+R20
+R21
+nbody
+Z100 !s100 YK6T[GXZNQ76R=8n^JmYF0
+Ememstage
+Z101 w1317924486
+R12
+R13
+R14
+R15
+Z102 8memstage.vhd
+Z103 Fmemstage.vhd
+l0
+L24
+Z104 V]Nb0l9oP8E9E88REm9RiN1
+R19
+33
+R20
+R21
+Z105 !s100 M<cONkW`9abf75WW1=35h0
+Artl
+R42
+R43
+R44
+Z106 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 8 memstage 0 22 ]Nb0l9oP8E9E88REm9RiN1
+33
+R46
+R47
+R48
+l58
+L53
+Z107 Vi;OQYf^LhmIbV5gA_<Xbd2
+R19
+R20
+R21
+Z108 !s100 d1QkR<K__h58J<7I@:_dY3
+Emyrisc
+Z109 w1317436727
+R12
+R13
+R14
+R15
+Z110 8myrisc.vhd
+Z111 Fmyrisc.vhd
+l0
+L27
+Z112 VI;[Iil<eHO7T3S=ll12Df2
+R19
+33
+R20
+R21
+Z113 !s100 lEUL09EjJB7To6NlmVCS61
+Abehavior
+R106
+Z114 DEx64 D:\Ain Shams University\Study\Masters\Thesis\QASM\QASM-VHDL\work 10 qprocessor 0 22 36@jHY0Ah=SI7k2:^V:zC2
+Z115 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 7 execute 0 22 PzBSn6F^OIDRochnl26[l3
+R45
+Z116 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 6 ifetch 0 22 ^8aSIO8d[<4SbW8THHhHY1
+Z117 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 8 intbussm 0 22 kbn2VBMRW4Bi8Q^6T:ZOC3
+Z118 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 10 controller 0 22 m0i<cV3UL7^;cLF[`PWV?0
+R42
+R43
+R44
+Z119 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 6 myrisc 0 22 I;[Iil<eHO7T3S=ll12Df2
+33
+R46
+R47
+R48
+l263
+L38
+Z120 VGMDUc@SeUoMoVAZ`1:IeN3
+R19
+R20
+R21
+Z121 !s100 [NhGbV=k`a^HYW2b5[PO30
+Priscpackage
+R43
+R44
+33
+Z122 Mx2 21 C:\modeltech_6.5\ieee 14 std_logic_1164
+Z123 Mx1 21 C:\modeltech_6.5\ieee 11 numeric_std
+R51
+R15
+Z124 8riscpackage.vhd
+Z125 Friscpackage.vhd
+l0
+L21
+Z126 V8<A^J24e1fU;n]HR`=80>3
+R19
+R20
+R21
+Z127 !s100 [MT;_bB[>BJ[JOCE@PH=P0
+Etest
+R51
+R12
+R13
+R14
+R15
+Z128 8test.vhd
+Z129 Ftest.vhd
+l0
+L24
+Z130 VGb1BFOo[9JCV915dRoTH81
+R19
+33
+R20
+R21
+Z131 !s100 YI]LVW7KUMHW67FfD8EVG0
+Abehavior
+Z132 DPx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 14 mempartpackage 0 22 KX1Xg<^8B25jf;iJbA?T91
+R95
+Z133 DPx21 C:\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z134 DPx21 C:\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R119
+Z135 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 11 memory_part 0 22 ]Bc22X`8HZfJY9L[F9W_;3
+R42
+R43
+R44
+Z136 DEx60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 4 test 0 22 Gb1BFOo[9JCV915dRoTH81
+33
+Z137 Mx7 21 C:\modeltech_6.5\ieee 14 std_logic_1164
+Z138 Mx6 21 C:\modeltech_6.5\ieee 11 numeric_std
+Z139 Mx5 60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 11 riscpackage
+Z140 Mx4 21 C:\modeltech_6.5\ieee 18 std_logic_unsigned
+Z141 Mx3 21 C:\modeltech_6.5\ieee 15 std_logic_arith
+R98
+Z142 Mx1 60 D:\Ain Shams University\Study\Masters\Thesis\MIPS-Q\RTL\work 14 mempartpackage
+l62
+L27
+Z143 V3[n@_Y>Oi;_gKCPa[l85P1
+Z144 !s100 j1]zz:jZ?YQXffaVjOX=Q3
+R19
+R20
+R21

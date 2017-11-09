@@ -1,0 +1,7 @@
+q		0,0
+q		0,1
+X		0
+CNOT		1,0
+H		1
+MEASURE	0
+MEASURE	1

@@ -1,0 +1,149 @@
+./execute.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/execute.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/execute.vhd(22): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/execute.vhd(22): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/execute.vhd(24): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./controller.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/controller.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/controller.vhd(24): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/controller.vhd(24): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/controller.vhd(26): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./mempart.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempart.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempart.vhd(43): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempart.vhd(43): Unknown expanded name.
+** Error: (vcom-13) Recompile work.mempartpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempart.vhd(44): (vcom-1195) Cannot find expanded name "work.MempartPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempart.vhd(44): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempart.vhd(68): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0 13.0 15.0 16.0 17.0 18.0 20.0} {}} ./StateMachine.vhd {1 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/StateMachine.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity StateMachine
+-- Compiling architecture RTL of StateMachine
+
+} {} {}} ./myrisc.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/myrisc.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/myrisc.vhd(22): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/myrisc.vhd(22): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/myrisc.vhd(27): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./test.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/test.vhd(22): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/test.vhd(22): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/test.vhd(24): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./ifetch.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/ifetch.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/ifetch.vhd(26): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/ifetch.vhd(26): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/ifetch.vhd(28): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./memstage.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/memstage.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/memstage.vhd(22): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/memstage.vhd(22): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/memstage.vhd(24): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./idecode.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/idecode.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/idecode.vhd(25): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/idecode.vhd(25): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/idecode.vhd(27): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} ./intBusSM.vhd {1 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/intBusSM.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity IntBusSM
+-- Compiling architecture RTL of IntBusSM
+
+} {} {}} ./riscpackage.vhd {1 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/riscpackage.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package RiscPackage
+
+} {} {}} ./mempartPackage.vhd {0 {vcom -stats=none -work work -2002 -explicit {C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempartPackage.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: (vcom-13) Recompile work.riscpackage because ieee.std_logic_1164 has changed.
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempartPackage.vhd(24): (vcom-1195) Cannot find expanded name "work.RiscPackage".
+
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempartPackage.vhd(24): Unknown expanded name.
+** Error: C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/mempartPackage.vhd(26): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}}

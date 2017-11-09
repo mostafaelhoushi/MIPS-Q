@@ -1,0 +1,10 @@
+q 0, 0
+X 0
+H 1
+CNOT 2, 1
+CNOT 1, 0
+H 0
+MEASURE 0
+MEASURE 1
+X 2
+Z 2

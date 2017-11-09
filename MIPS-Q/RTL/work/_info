@@ -1,0 +1,517 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 d/media/Mostafa/ASU Engineering/Study/Masters/Thesis/MIPS-Q/RTL
+T_opt
+V@FD1WohW3aoaP3fCNKEQ61
+Z1 04 4 8 work test behavior 1
+=1-6cf04916777a-4dead8a4-aed96-79b4
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.0;49
+R0
+T_opt1
+Vm[0X<4o[9UCRjHHTE@KVU1
+R1
+=1-0013027dd17c-4e8e0337-1aa-1710
+R2
+n@_opt1
+OE;O;6.5;42
+R0
+Econtroller
+Z3 w1317928168
+Z4 DPx4 work 11 riscpackage 0 22 zZDQN[b5jUDhjAafIHS;U2
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 dC:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL
+Z9 8controller.vhd
+Z10 Fcontroller.vhd
+l0
+L26
+V31fBm??cZ2z`O`G_<PNR`0
+!s100 eiFCM4GZ`^f6]3K:0fdVQ0
+Z11 OP;C;10.3b;59
+33
+Z12 !s110 1402910737
+!i10b 1
+Z13 !s108 1402910737.632000
+Z14 !s90 -reportprogress|300|-2008|-explicit|-work|work|controller.vhd|
+Z15 !s107 controller.vhd|
+!i113 1
+Z16 o-2008 -explicit -work work -O0
+Z17 tExplicit 1
+Artl
+R4
+R5
+R6
+R7
+DEx4 work 10 controller 0 22 31fBm??cZ2z`O`G_<PNR`0
+l47
+L37
+VFjzBQUJ<QOOX2^a?7:Va;1
+!s100 ai=?ejIbVl[DT_VO4Ca:?3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eexecute
+Z18 w1307227650
+R4
+R5
+R6
+R7
+R8
+Z19 8execute.vhd
+Z20 Fexecute.vhd
+l0
+L24
+Vlzb=Ak<lhI:[ZcLaPCEo[2
+!s100 McdnTi=gNFCIai3KZJE1N0
+R11
+33
+Z21 !s110 1402910742
+!i10b 1
+Z22 !s108 1402910742.881000
+Z23 !s90 -reportprogress|300|-2008|-explicit|-work|work|execute.vhd|
+Z24 !s107 execute.vhd|
+!i113 1
+R16
+R17
+Artl
+R4
+R5
+R6
+R7
+DEx4 work 7 execute 0 22 lzb=Ak<lhI:[ZcLaPCEo[2
+l69
+L61
+VdKOb@3l?l6dz?QlV>be2I2
+!s100 ADmo1cK7B;iY;GCIVFInZ2
+R11
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
+Eidecode
+Z25 w1307232912
+R4
+R5
+R6
+R7
+R8
+Z26 8idecode.vhd
+Z27 Fidecode.vhd
+l0
+L27
+Vm9oSd;785H@iU3B`9?PYP1
+!s100 fNX8h><2_<0Oh0_VnJUhb1
+R11
+33
+Z28 !s110 1402910741
+!i10b 1
+Z29 !s108 1402910741.657000
+Z30 !s90 -reportprogress|300|-2008|-explicit|-work|work|idecode.vhd|
+Z31 !s107 idecode.vhd|
+!i113 1
+R16
+R17
+Artl
+R4
+R5
+R6
+R7
+DEx4 work 7 idecode 0 22 m9oSd;785H@iU3B`9?PYP1
+l146
+L75
+V=DYUW1FSB`LYG;<CLX@L93
+!s100 2kgi_4?e=b`@4AWkVlN_Y0
+R11
+33
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R16
+R17
+Eifetch
+Z32 w1306178440
+R4
+R5
+R6
+R7
+R8
+Z33 8ifetch.vhd
+Z34 Fifetch.vhd
+l0
+L28
+V3d4iHjPdC^gn`mbC4H7^G2
+!s100 73D=NH<HjHU]n5LKaNCS41
+R11
+33
+Z35 !s110 1402910740
+!i10b 1
+Z36 !s108 1402910740.452000
+Z37 !s90 -reportprogress|300|-2008|-explicit|-work|work|ifetch.vhd|
+Z38 !s107 ifetch.vhd|
+!i113 1
+R16
+R17
+Astruct
+R4
+R5
+R6
+R7
+DEx4 work 6 ifetch 0 22 3d4iHjPdC^gn`mbC4H7^G2
+l57
+L48
+VnWhZOfoZjIjUK>NzLfU>63
+!s100 3Wz^NP]7Uj?_H2<G>fznM1
+R11
+33
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R16
+R17
+Eintbussm
+R32
+R6
+R7
+R8
+Z39 8intBusSM.vhd
+Z40 FintBusSM.vhd
+l0
+L21
+V;PEdYSm]L6z[[H]BQaV<]2
+!s100 HZL`c00eVco@f[zYO?5LR3
+R11
+33
+Z41 !s110 1402910739
+!i10b 1
+Z42 !s108 1402910739.170000
+Z43 !s90 -reportprogress|300|-2008|-explicit|-work|work|intBusSM.vhd|
+Z44 !s107 intBusSM.vhd|
+!i113 1
+R16
+R17
+Artl
+R6
+R7
+DEx4 work 8 intbussm 0 22 ;PEdYSm]L6z[[H]BQaV<]2
+l37
+L31
+V=U;XE]z0MQRV;XR2`Tk>70
+!s100 2M>R@hal:BR5_nTM`XzVR2
+R11
+33
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R16
+R17
+Ememory_part
+Z45 w1306181908
+Z46 DPx4 work 14 mempartpackage 0 22 c3BMOOA_jLjYC`d^@z8mP2
+R4
+R5
+Z47 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R6
+R7
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R8
+Z49 8mempart.vhd
+Z50 Fmempart.vhd
+l0
+L68
+VSGNL^ba4^9n>Y0g0`[e>k3
+!s100 HVhm^VP^QzA`5FUD6PWB?0
+R11
+33
+Z51 !s110 1402910736
+!i10b 1
+Z52 !s108 1402910735.956000
+Z53 !s90 -reportprogress|300|-2008|-explicit|-work|work|mempart.vhd|
+Z54 !s107 mempart.vhd|
+!i113 1
+R16
+R17
+Astatic
+R46
+R4
+R5
+R47
+R6
+R7
+R48
+DEx4 work 11 memory_part 0 22 SGNL^ba4^9n>Y0g0`[e>k3
+l114
+L112
+V3KbN0LUnb`@mAfc=5MeUd1
+!s100 fRzIPD03BU;>V33GT@`LU1
+R11
+33
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R16
+R17
+Pmempartpackage
+R4
+R5
+R6
+R7
+Z55 w1402449560
+R8
+Z56 8mempartPackage.vhd
+Z57 FmempartPackage.vhd
+l0
+L26
+Vc3BMOOA_jLjYC`d^@z8mP2
+!s100 KNOZIfidKcC0QXB3iglzV0
+R11
+33
+b1
+Z58 !s110 1402910735
+!i10b 1
+Z59 !s108 1402910735.620000
+Z60 !s90 -reportprogress|300|-2008|-explicit|-work|work|mempartPackage.vhd|
+Z61 !s107 mempartPackage.vhd|
+!i113 1
+R16
+R17
+Bbody
+R46
+R4
+R5
+R6
+R7
+l0
+L50
+VOSGIYh^ezbQ54ahhbhR<k2
+!s100 S9:JRgfb0]P53?fl3E6Fe3
+R11
+33
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R16
+R17
+nbody
+Ememstage
+Z62 w1317924488
+R4
+R5
+R6
+R7
+R8
+Z63 8memstage.vhd
+Z64 Fmemstage.vhd
+l0
+L24
+VQ[S_Y2m^C9JXOW4AUNh6K1
+!s100 D[A9HmbIi:o><3BYJ;K?H2
+R11
+33
+Z65 !s110 1402910743
+!i10b 1
+Z66 !s108 1402910743.772000
+Z67 !s90 -reportprogress|300|-2008|-explicit|-work|work|memstage.vhd|
+Z68 !s107 memstage.vhd|
+!i113 1
+R16
+R17
+Artl
+R4
+R5
+R6
+R7
+DEx4 work 8 memstage 0 22 Q[S_Y2m^C9JXOW4AUNh6K1
+l58
+L53
+VgoQ[7H_NzZSz;>f=XcDf@2
+!s100 ;gkg5<ICzm7GmR:X=SXG^3
+R11
+33
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R16
+R17
+Emyrisc
+Z69 w1317436728
+R4
+R5
+R6
+R7
+R8
+Z70 8myrisc.vhd
+Z71 Fmyrisc.vhd
+l0
+L27
+VYGXC3gU5BA6;f;:RPKRQR1
+!s100 ]9Nf_YQ9W4P01D]?WcIID0
+R11
+33
+Z72 !s110 1402910744
+!i10b 1
+Z73 !s108 1402910744.638000
+Z74 !s90 -reportprogress|300|-2008|-explicit|-work|work|myrisc.vhd|
+Z75 !s107 myrisc.vhd|
+!i113 1
+R16
+R17
+Abehavior
+R4
+R5
+R6
+R7
+DEx4 work 6 myrisc 0 22 YGXC3gU5BA6;f;:RPKRQR1
+l263
+L38
+Vm63a7DJJVjh5NN7Ic7_kV1
+!s100 PW?9ogT2M]]ZBE?I2a^2i1
+R11
+33
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R16
+R17
+Priscpackage
+R5
+R6
+R7
+R32
+R8
+8riscpackage.vhd
+Friscpackage.vhd
+l0
+L21
+VzZDQN[b5jUDhjAafIHS;U2
+!s100 Qk<KBfC?g2K9j]ZomQ^551
+R11
+33
+R58
+!i10b 1
+!s108 1402910735.361000
+!s90 -reportprogress|300|-2008|-explicit|-work|work|riscpackage.vhd|
+!s107 riscpackage.vhd|
+!i113 1
+R16
+R17
+Estatemachine
+R32
+R6
+R7
+R8
+Z76 8C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/StateMachine.vhd
+Z77 FC:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/StateMachine.vhd
+l0
+L5
+VX:d[U0_Zg]Q6McnCak=Di2
+!s100 CdA]2Af`bo7J<nD[;IGYb0
+Z78 OP;C;10.3a;59
+32
+Z79 !s110 1401862794
+!i10b 1
+Z80 !s108 1401862794.903000
+Z81 !s90 -reportprogress|300|-stats=none|-work|work|-2002|-explicit|C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/StateMachine.vhd|
+Z82 !s107 C:/Users/Elhoushi/Documents/Ain Shams University/Study/Masters/Thesis/MIPS-Q/RTL/StateMachine.vhd|
+!i113 1
+Z83 o-work work -2002 -explicit -O0
+R17
+Artl
+R6
+R7
+DEx4 work 12 statemachine 0 22 X:d[U0_Zg]Q6McnCak=Di2
+l23
+L17
+VQeVhZdo>VfkXRza>CNKMJ0
+!s100 i1d6G=eL>1=E?l@05aSLO2
+R78
+32
+R79
+!i10b 1
+R80
+R81
+R82
+!i113 1
+R83
+R17
+Etest
+R32
+R4
+R5
+R6
+R7
+R8
+Z84 8test.vhd
+Z85 Ftest.vhd
+l0
+L24
+V93eN_WkenW3N?9XJXK0_d1
+!s100 _Ieg5n1om<zV5cz;j;z6n3
+R11
+33
+Z86 !s110 1402910745
+!i10b 1
+Z87 !s108 1402910745.515000
+Z88 !s90 -reportprogress|300|-2008|-explicit|-work|work|test.vhd|
+Z89 !s107 test.vhd|
+!i113 1
+R16
+R17
+Abehavior
+R4
+R5
+R6
+R7
+Z90 DEx4 work 4 test 0 22 93eN_WkenW3N?9XJXK0_d1
+l62
+L27
+Z91 VUa^zj2Hf==b5;R<l2b@<g1
+Z92 !s100 lM5YR=44g?5W]8KG]2IXh1
+R11
+33
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R16
+R17
